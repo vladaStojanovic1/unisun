@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 44</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UniSun-Invest" transform="translate(-982.000000, -1629.000000)">
+            <g id="Group-14" transform="translate(625.000000, 1327.000000)">
+                <g id="Group-16" transform="translate(327.000000, 272.000000)">
+                    <g id="Group-44" transform="translate(30.000000, 30.000000)">
+                        <rect id="Rectangle-Copy-7" fill="#EBF0F7" x="0" y="0" width="50" height="50" rx="13"></rect>
+                        <g id="Group" transform="translate(13.000000, 13.000000)">
+                            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                            <polygon id="Path" stroke="#0C449C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="12 3 21.5 10 18 21 6 21 2.5 10"></polygon>
+                            <polygon id="Path" stroke="#0C449C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="12 7.5 17.5 11.5 15 17 8.5 17 6.5 11.5"></polygon>
+                            <polyline id="Path" stroke="#0C449C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.5 10 12 13 21.5 10"></polyline>
+                            <polyline id="Path" stroke="#0C449C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="12 3 12 13 18 21"></polyline>
+                            <line x1="6" y1="21" x2="12" y2="13" id="Path" stroke="#0C449C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

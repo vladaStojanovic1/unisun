@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 8</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UniSun-Invest" transform="translate(-655.000000, -1629.000000)">
+            <g id="Group-14" transform="translate(625.000000, 1327.000000)">
+                <g id="Group-15" transform="translate(0.000000, 272.000000)">
+                    <g id="Group-8" transform="translate(30.000000, 30.000000)">
+                        <rect id="Rectangle-Copy" fill="#EBF0F7" x="0" y="0" width="50" height="50" rx="13"></rect>
+                        <g id="Group" transform="translate(13.000000, 13.000000)">
+                            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                            <circle id="Oval" stroke="#0C449C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" cx="12" cy="12" r="3"></circle>
+                            <line x1="12" y1="21" x2="12" y2="21.01" id="Path" stroke="#0C449C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                            <line x1="3" y1="9" x2="3" y2="9.01" id="Path" stroke="#0C449C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                            <line x1="21" y1="9" x2="21" y2="9.01" id="Path" stroke="#0C449C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                            <path d="M8,20.1 C5.22627771,18.7471032 3.33915121,16.0673835 3,13" id="Path" stroke="#0C449C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M16,20.1 C18.7737223,18.7471032 20.6608488,16.0673835 21,13" id="Path" stroke="#0C449C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M6.2,5 C9.51560434,2.28654941 14.2843957,2.28654941 17.6,5" id="Path" stroke="#0C449C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

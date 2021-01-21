@@ -1,0 +1,33 @@
+// Use $font-path from _vars/_base.scss as path to fonts folder or update it here
+// Use https://transfonter.org/ to generate fonts and update font path here
+// Default font path (relative to style.css) is ../fonts (that is value of $font-path)
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("#{$font-path}/Gilroy/GilroyW00-Bold.woff2") format("woff2"),
+        url("#{$font-path}/Gilroy/GilroyW00-Bold.woff") format("woff"),
+        url("#{$font-path}/Gilroy/GilroyW00-Bold.svg#GilroyW00-Bold") format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("#{$font-path}/Gilroy/GilroyW00-Regular.woff2") format("woff2"),
+        url("#{$font-path}/Gilroy/GilroyW00-Regular.woff") format("woff"),
+        url("#{$font-path}/Gilroy/GilroyW00-Regular.svg#GilroyW00-Regular") format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("#{$font-path}/Gilroy/GilroyW00-Medium.woff2") format("woff2"),
+        url("#{$font-path}/Gilroy/GilroyW00-Medium.woff") format("woff"),
+        url("#{$font-path}/Gilroy/GilroyW00-Medium.svg#GilroyW00-Medium") format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

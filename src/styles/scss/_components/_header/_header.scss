@@ -1,0 +1,187 @@
+.m-header {
+    position: relative;
+
+    &__navigation {
+        padding: 15px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+
+        @include media-up(l) {
+            padding: 25px 40px 25px 80px;
+        }
+
+        &--left {
+            display: flex;
+            align-items: center;
+
+            nav {
+                margin-left: 50px;
+                visibility: hidden;
+                opacity: 0;
+                transition: ease-in-out 0.2s;
+                position: absolute;
+                // right: -30%;
+                // top: 0;
+                // right: -50%;
+                // transform: translate(50%);
+
+                @include media-up(l) {
+                    opacity: 1;
+                    visibility: visible;
+                    position: initial;
+                }
+
+                a {
+                    letter-spacing: -0.46px;
+                    line-height: 19px;
+                    color: $black;
+
+                    @include media-up(l) {
+                        &:not(:last-child) {
+                            margin-right: 30px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &--right {
+            display: flex;
+            align-items: center;
+
+            .lang {
+                position: relative;
+                margin-right: 20px;
+
+                @include media-up(l) {
+                    margin-right: 0;
+                }
+
+                a {
+                    font-size: 14px;
+                    letter-spacing: -0.17px;
+                    line-height: 28px;
+                    background-color: rgba($white, 0.2);
+                    color: $white;
+                    border-radius: 10px;
+                }
+
+                .de {
+                    display: none;
+                    position: absolute;
+                    top: 31px;
+                    right: 0px;
+                    padding: 3px 15px 3px 15px;
+                    transition: ease-in-out 0.3;
+                }
+
+                .eng {
+                    padding: 7px 25px 7px 15px;
+                }
+            }
+
+            .hamburger {
+                cursor: pointer;
+                display: none;
+                border: 1px solid $white;
+                padding: 10px;
+                z-index: 1;
+                border-color: $white;
+
+                @include media-down(l) {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                }
+
+                .one,
+                .three {
+                    width: 31px;
+                    height: 2px;
+                    background-color: $white;
+
+                    @include media-up(l) {
+                        background-color: $blue;
+                    }
+                }
+
+                .two {
+                    width: 20px;
+                    height: 2px;
+                    background-color: $white;
+                    margin: 6px 0;
+
+                    @include media-up(l) {
+                        background-color: $blue;
+                    }
+                }
+            }
+        }
+    }
+
+    &__content {
+        @include media-up(l) {
+            padding-left: 80px;
+        }
+
+        &--text {
+            padding: 50px 20px;
+            text-align: center;
+
+            @include media-up(l) {
+                padding: 233px 0 233px 0;
+                text-align: initial;
+            }
+
+            @include media-up(xl) {
+                padding: 233px 50px 233px 0;
+            }
+
+            h2 {
+                font-weight: 500;
+                letter-spacing: -1px;
+                line-height: 58px;
+                margin-bottom: 20px;
+
+                span {
+                    color: $blue;
+                }
+            }
+
+            p {
+                &:nth-of-type(1) {
+                    font-size: 13px;
+                    letter-spacing: -0.37px;
+                    line-height: 15px;
+                    opacity: 0.4;
+                    margin-bottom: 5px;
+                }
+
+                &:nth-of-type(2) {
+                    letter-spacing: -0.2px;
+                    line-height: 28px;
+                }
+            }
+        }
+
+        &--image {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            min-height: 400px;
+            order: -1;
+
+            @include media-up(l) {
+                background-position: initial;
+                order: initial;
+                min-height: initial;
+            }
+        }
+    }
+}
