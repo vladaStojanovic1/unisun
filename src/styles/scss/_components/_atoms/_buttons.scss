@@ -1,0 +1,13 @@
+.a-btn {
+    &.-blue {
+        background-color: $blue;
+        font-size: 14px;
+        letter-spacing: -0.17px;
+        line-height: 28px;
+        font-weight: 700;
+        padding: 10px 25px;
+        color: $white;
+        border-radius: 10px;
+        display: inline-block;
+    }
+}

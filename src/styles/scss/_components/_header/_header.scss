@@ -1,5 +1,6 @@
 .m-header {
     position: relative;
+    z-index: 2;
 
     &__navigation {
         padding: 15px;
@@ -66,9 +67,13 @@
                     font-size: 14px;
                     letter-spacing: -0.17px;
                     line-height: 28px;
-                    background-color: rgba($white, 0.2);
+                    background-color: rgba($white, 0.1);
                     color: $white;
                     border-radius: 10px;
+
+                    @include media-up(l) {
+                        background-color: rgba($white, 0.2);
+                    }
                 }
 
                 .de {
@@ -134,7 +139,7 @@
             text-align: center;
 
             @include media-up(l) {
-                padding: 233px 0 233px 0;
+                padding: 150px 0 100px 0;
                 text-align: initial;
             }
 

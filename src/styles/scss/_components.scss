@@ -1,5 +1,6 @@
 // Atoms
 @import "_components/_atoms/atom";
+@import "_components/_atoms/buttons";
 
 // Modules
 @import "_components/_modules/module";
@@ -7,6 +8,7 @@
 
 // Pages
 @import "_components/_pages/page";
+@import "_components/_pages/_home/section-experience";
 
 // Header
 @import "_components/_header/header";
