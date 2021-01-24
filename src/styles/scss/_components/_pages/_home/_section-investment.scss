@@ -1,0 +1,152 @@
+.m-investment {
+    &__title {
+        text-align: center;
+        letter-spacing: -1px;
+        line-height: 68px;
+        margin-bottom: 40px;
+        font-weight: 400;
+
+        span {
+            color: $blue;
+        }
+    }
+
+    &__firstPart {
+        padding-bottom: 110px;
+        align-items: center;
+
+        &--left {
+            background-position: center;
+            background-size: cover;
+            z-index: 1;
+            position: relative;
+            text-align: center;
+            padding: 100px 20px;
+
+            @include media-up(xl) {
+                padding: 130px 115px 130px 50px;
+                text-align: initial;
+            }
+
+            @include media-up(xxl) {
+                padding: 130px 115px;
+            }
+
+            @include media-up(xl) {
+                &::after {
+                    content: "";
+                    position: absolute;
+                    height: calc(100% + 22px);
+                    background-color: $white;
+                    transform: rotate(-14deg);
+                    z-index: -1;
+                    top: -27px;
+                    right: -73px;
+                    width: 150px;
+                }
+            }
+
+            h2 {
+                letter-spacing: -1px;
+                line-height: 68px;
+                font-weight: 400;
+                color: $white;
+                margin-bottom: 20px;
+            }
+
+            h4 {
+                letter-spacing: 0;
+                line-height: 46px;
+                color: $white;
+                font-weight: 400;
+                opacity: 0.7;
+            }
+        }
+
+        &--right {
+            z-index: 1;
+            margin-top: 50px;
+
+            @include media-up(s) {
+                padding: 40px;
+            }
+
+            @include media-up(xl) {
+                padding: 0 90px 0 0;
+                margin-top: 0;
+            }
+
+            h4 {
+                letter-spacing: 0;
+                line-height: 40px;
+                font-weight: 400;
+                margin-bottom: 40px;
+            }
+
+            .subtitle {
+                font-size: 18px;
+                letter-spacing: -0.2px;
+                line-height: 24px;
+                font-weight: 700;
+                margin-bottom: 30px;
+            }
+
+            .flex {
+                display: flex;
+                align-items: center;
+                margin: 0 0 30px 0;
+
+                p {
+                    margin: 0 20px 0;
+                }
+            }
+        }
+    }
+
+    &__secondPart {
+        flex-wrap: wrap;
+        padding-bottom: 137px;
+
+        &--item {
+            margin-bottom: 30px;
+
+            .item-wrap {
+                padding: 30px;
+                flex-direction: column;
+                height: 100%;
+                border: 1px solid rgba(12, 68, 156, 0.1);
+                border-radius: 3px;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    height: 3px;
+                    border-radius: 0 0 3px 3px;
+                    background-color: $blue;
+                    width: 100%;
+                }
+
+                p {
+                    &:nth-child(1) {
+                        font-size: 18px;
+                        letter-spacing: -0.2px;
+                        line-height: 24px;
+                        font-weight: 700;
+                        color: $blue;
+                        margin-bottom: 20px;
+                    }
+
+                    &:nth-child(2) {
+                        letter-spacing: -0.2px;
+                        line-height: 28px;
+                        opacity: 0.7;
+                        margin-bottom: auto;
+                    }
+                }
+            }
+        }
+    }
+}

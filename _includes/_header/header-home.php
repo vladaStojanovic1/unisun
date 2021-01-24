@@ -1,13 +1,13 @@
 <header class="m-header">
     <div class="_wr-f m-header__navigation">
         <div class="m-header__navigation--left">
-            <div>
-                <img src="src/images/fsd.jpg" alt="">
+            <div class="logo">
+                <img src="src/images/logo-black.png" alt="">
             </div>
             <nav>
-                <a href="#">Team</a>
-                <a href="#">Investment Criteria</a>
-                <a href="#">Contact Us</a>
+                <a href="#team">Team</a>
+                <a href="#investment">Investment Criteria</a>
+                <a href="#contact">Contact Us</a>
             </nav>
         </div>
 

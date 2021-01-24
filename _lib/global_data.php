@@ -1,10 +1,11 @@
 <?php
+
 /**
  * @var $globalData {array} - Array of global data information (used for SEO, and across a website)
  */
 $globalData = [
     'abr' => 'fsd',
-    'abr_display' => 'fSD Website',
+    'abr_display' => 'UniSun',
     'delimiter' => ' | ',
     'author' => 'fSD - Novi Sad',
     'theme_color' => '#7059fd'

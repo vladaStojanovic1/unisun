@@ -1,0 +1,30 @@
+.m-contactUs {
+    &__content {
+        background-size: cover;
+        background-position: center;
+        z-index: 1;
+
+        &--firstRow {
+            justify-content: center;
+            padding: 55px 0;
+
+            .text {
+                text-align: center;
+
+                @include media-up(l) {
+                    flex: 0 0 52%;
+                    max-width: 52%;
+                }
+
+                h3 {
+                    letter-spacing: -0.5px;
+                    line-height: 54px;
+                    text-align: center;
+                    color: $white;
+                    margin-bottom: 30px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

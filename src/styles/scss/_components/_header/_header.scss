@@ -19,28 +19,48 @@
         &--left {
             display: flex;
             align-items: center;
+            flex: 0 0 25%;
+            max-width: 25%;
+
+            @include media-up(m) {
+                flex: 0 0 70%;
+                max-width: 70%;
+            }
 
             nav {
-                margin-left: 50px;
                 visibility: hidden;
                 opacity: 0;
-                transition: ease-in-out 0.2s;
                 position: absolute;
-                // right: -30%;
-                // top: 0;
-                // right: -50%;
-                // transform: translate(50%);
+                transition: transform 0.3s ease;
+                transform: translate3d(100%, 0, 0);
 
                 @include media-up(l) {
+                    margin-left: 50px;
                     opacity: 1;
                     visibility: visible;
                     position: initial;
+                    transform: translate3d(0, 0, 0);
                 }
 
                 a {
                     letter-spacing: -0.46px;
                     line-height: 19px;
                     color: $black;
+                    display: inline-block;
+
+                    &::after {
+                        content: "";
+                        display: block;
+                        border-bottom: solid 2px $blue;
+                        transform: scaleX(0);
+                        transition: transform 250ms ease-in-out;
+                    }
+
+                    &:hover {
+                        &::after {
+                            transform: scaleX(1);
+                        }
+                    }
 
                     @include media-up(l) {
                         &:not(:last-child) {
@@ -49,11 +69,38 @@
                     }
                 }
             }
+
+            .logo {
+                flex: 0 0 100%;
+                max-width: 100%;
+                z-index: 1;
+
+                @include media-up(m) {
+                    max-width: 20%;
+                    flex: 0 0 20%;
+                }
+
+                img {
+                    width: 100%;
+
+                    @include media-up(xl) {
+                        width: 80%;
+                    }
+                }
+            }
         }
 
         &--right {
             display: flex;
             align-items: center;
+            justify-content: flex-end;
+            flex: 0 0 70%;
+            max-width: 70%;
+
+            @include media-up(m) {
+                flex: 0 0 30%;
+                max-width: 30%;
+            }
 
             .lang {
                 position: relative;
@@ -73,6 +120,12 @@
 
                     @include media-up(l) {
                         background-color: rgba($white, 0.2);
+                    }
+
+                    &:hover {
+                        background-color: rgba($white, 0.7);
+                        transition: ease-in-out 0.2s;
+                        color: $blue;
                     }
                 }
 

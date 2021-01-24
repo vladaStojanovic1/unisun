@@ -1,0 +1,100 @@
+.m-footer {
+    &__content {
+        &--left {
+            padding: 50px 20px;
+            text-align: center;
+
+            @include media-up(l) {
+                text-align: initial;
+            }
+
+            @include media-up(xl) {
+                padding: 117px 0 117px 50px;
+            }
+
+            @include media-up(xxl) {
+                padding: 117px 0 117px 115px;
+            }
+
+            h2 {
+                letter-spacing: -1px;
+                line-height: 68px;
+                font-weight: 400;
+                margin-bottom: 50px;
+
+                span {
+                    color: $blue;
+                }
+            }
+
+            h4 {
+                &:nth-of-type(1) {
+                    letter-spacing: 0;
+                    line-height: 46px;
+                    font-weight: 500;
+                    margin-bottom: 20px;
+                }
+
+                &:nth-of-type(2) {
+                    letter-spacing: -0.63px;
+                    line-height: 40px;
+                    font-weight: 400;
+                    margin-bottom: 30px;
+                }
+            }
+
+            p {
+                &:nth-of-type(1) {
+                    letter-spacing: -0.2px;
+                    line-height: 28px;
+                    opacity: 0.7;
+                    margin-bottom: 30px;
+                }
+
+                &:nth-of-type(2) {
+                    font-size: 18px;
+                    letter-spacing: -0.2px;
+                    line-height: 24px;
+                    font-weight: 700;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .flex {
+                display: flex;
+                justify-content: center;
+
+                @include media-up(l) {
+                    justify-content: initial;
+                }
+
+                .slash {
+                    margin: 0 20px 0 40px;
+                }
+
+                .block {
+                    display: block;
+                }
+
+                span {
+                    letter-spacing: -0.2px;
+                    line-height: 28px;
+                }
+
+                p {
+                    opacity: 1;
+                }
+            }
+        }
+
+        &--right {
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: none;
+
+            @include media-up(l) {
+                display: block;
+            }
+        }
+    }
+}

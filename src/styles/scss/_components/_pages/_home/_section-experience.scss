@@ -1,6 +1,6 @@
 .m-experience {
     position: relative;
-    padding-bottom: 90px;
+    padding-bottom: 60px;
 
     &::after {
         content: "";
@@ -68,9 +68,36 @@
         &--item {
             text-align: center;
             margin-bottom: 40px;
+            position: relative;
 
             @include media-up(l) {
                 margin-bottom: 0;
+
+                &:not(:last-child) {
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        height: 100%;
+                        width: 1px;
+                        background: linear-gradient(
+                            to top,
+                            rgba(30, 87, 153, 0) 0%,
+                            rgba(233, 233, 233, 0.98) 50%,
+                            #ebebeb 51%,
+                            rgba(225, 228, 226, 0) 99%,
+                            rgba(229, 229, 229, 0) 100%
+                        );
+                    }
+                }
+
+                &:nth-child(1),
+                &:nth-child(3) {
+                    &::after {
+                        right: -7%;
+                    }
+                }
             }
 
             h1 {
@@ -96,6 +123,7 @@
 
     &__thirdRow {
         justify-content: space-evenly;
+        align-items: center;
 
         &--left {
             text-align: center;
@@ -149,7 +177,9 @@
 
                 @include media-up(s) {
                     flex-direction: row;
+                }
 
+                @include media-up(m) {
                     &:not(:last-child) {
                         margin-bottom: 30px;
                     }
@@ -162,15 +192,8 @@
                 background-color: $white;
                 box-shadow: 0 20px 60px -30px rgba(0, 0, 0, 0.15);
                 padding: 19px;
-                margin-bottom: 30px;
-
-                @include media-up(s) {
-                    margin-bottom: 0;
-
-                    &:not(:last-child) {
-                        margin-right: 30px;
-                    }
-                }
+                height: 100%;
+                flex-direction: column;
 
                 .img {
                     display: flex;
@@ -197,6 +220,14 @@
                         line-height: 28px;
                         opacity: 0.7;
                     }
+                }
+            }
+
+            .card-wrapper {
+                margin-bottom: 30px;
+
+                @include media-up(m) {
+                    margin-bottom: 0;
                 }
             }
         }

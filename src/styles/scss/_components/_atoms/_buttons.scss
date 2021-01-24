@@ -1,13 +1,114 @@
 .a-btn {
     &.-blue {
-        background-color: $blue;
         font-size: 14px;
         letter-spacing: -0.17px;
         line-height: 28px;
         font-weight: 700;
-        padding: 10px 25px;
+        background-color: $blue;
         color: $white;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 25px;
+        letter-spacing: 0;
+        position: relative;
         border-radius: 10px;
+        transition: all 0.3s ease;
         display: inline-block;
+
+        &:hover {
+            box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+                4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+            background-color: rgba($blue, 0.5);
+            background: transparent;
+            box-shadow: none;
+            color: $blue;
+        }
+
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 2px;
+            width: 0;
+            background: $white;
+            box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003, 4px 4px 5px 0px #0002;
+            transition: 400ms ease all;
+        }
+
+        &::after {
+            right: inherit;
+            top: inherit;
+            left: 0;
+            bottom: 0;
+        }
+
+        &:hover {
+            &::before,
+            &::after {
+                width: 100%;
+                transition: 0.2 ease all;
+                background: $blue;
+            }
+        }
+    }
+
+    &.-transparent {
+        background-color: rgba($white, 0.25);
+        border-radius: 10px;
+        color: $white;
+        padding: 10px 25px;
+        font-size: 14px;
+        letter-spacing: -0.17px;
+        line-height: 28px;
+        font-weight: 700;
+        color: $white;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        display: inline-block;
+
+        &:hover {
+            box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+                4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+            background-color: rgba($blue, 0.5);
+            background: transparent;
+            box-shadow: none;
+            color: $white;
+        }
+
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 2px;
+            width: 0;
+            background: $white;
+            box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003, 4px 4px 5px 0px #0002;
+            transition: 400ms ease all;
+        }
+
+        &::after {
+            right: inherit;
+            top: inherit;
+            left: 0;
+            bottom: 0;
+        }
+
+        &:hover {
+            &::before,
+            &::after {
+                width: 100%;
+                transition: 0.2 ease all;
+                background: $white;
+            }
+        }
     }
 }
