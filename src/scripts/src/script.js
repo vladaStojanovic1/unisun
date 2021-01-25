@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    $('.eng').on('click',function(){
+    $('.eng').on('click',function(e){
+        e.preventDefault();
         $('.de').slideToggle(50);
         $(this).toggleClass('-arrowUp');
       });

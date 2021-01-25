@@ -6,15 +6,15 @@
             </div>
             <nav>
                 <a href="#team">Team</a>
-                <a href="#investment">Investment Criteria</a>
-                <a href="#contact">Contact Us</a>
+                <a href="#investment">Anlagekriterien</a>
+                <a href="#contact">Kontakt</a>
             </nav>
         </div>
 
         <div class="m-header__navigation--right">
             <div class="lang">
-                <a class="eng -arrowDown" href="">Eng</a>
-                <a class="de" href="de.php">De</a>
+                <a class="eng -arrowDown" href="#">De</a>
+                <a class="de" href="index.php">Eng</a>
             </div>
 
             <div class="hamburger">
@@ -28,15 +28,16 @@
     <div class="_wr-f ">
         <div class="_w m-header__content">
             <div class="_xxl4 _xl4 _l4 m-header__content--text">
-                <p>Welcome to UniSun invest</p>
-                <h2>Real Estate for
+                <p>Willkommen bei UniSun Invest</p>
+                <h2>Immobilien für
                     <span>
-                        Institutional Investors
+                        Institutionelle Investoren
                     </span>
                 </h2>
                 <p>
-                    We work together with investors to purchase and sell investment property that includes commercial,
-                    office and residential properties, as well as building land.
+
+                    Wir arbeiten mit Investoren beim Kauf und Verkauf von Anlageimmobilien zusammen. Dies umfasst
+                    Gewerbe-, Büro-, Wohnimmobilien und Bauland.
                 </p>
             </div>
 
