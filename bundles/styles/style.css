@@ -2191,22 +2191,22 @@ li {
           line-height: 19px;
           color: #000;
           display: inline-block; }
-          .m-header__navigation--left nav a::after {
-            content: "";
-            display: block;
-            border-bottom: solid 2px #0c449c;
-            -webkit-transform: scaleX(0);
-                    transform: scaleX(0);
-            -webkit-transition: -webkit-transform 250ms ease-in-out;
-            transition: -webkit-transform 250ms ease-in-out;
-            transition: transform 250ms ease-in-out;
-            transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out; }
-          .m-header__navigation--left nav a:hover::after {
-            -webkit-transform: scaleX(1);
-                    transform: scaleX(1); }
           @media (min-width: 992px) {
             .m-header__navigation--left nav a:not(:last-child) {
-              margin-right: 30px; } }
+              margin-right: 30px; }
+            .m-header__navigation--left nav a::after {
+              content: "";
+              display: block;
+              border-bottom: solid 2px #0c449c;
+              -webkit-transform: scaleX(0);
+                      transform: scaleX(0);
+              -webkit-transition: -webkit-transform 250ms ease-in-out;
+              transition: -webkit-transform 250ms ease-in-out;
+              transition: transform 250ms ease-in-out;
+              transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out; }
+            .m-header__navigation--left nav a:hover::after {
+              -webkit-transform: scaleX(1);
+                      transform: scaleX(1); } }
       .m-header__navigation--left .logo {
         -webkit-box-flex: 0;
             -ms-flex: 0 0 100%;
