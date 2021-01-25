@@ -20,8 +20,8 @@ $pageData = [
         'title' => 'Page Title',
         'description' => 'Page Description',
     ],
-    'about' => [
-        'name' => 'About',
+    'zuhause' => [
+        'name' => 'Zuhause',
         'title' => 'Learn more about us',
         'description' => 'This is just simple about us page description',
     ]

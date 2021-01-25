@@ -28,7 +28,7 @@
     <div class="_wr-f ">
         <div class="_w m-header__content">
             <div class="_xxl4 _xl4 _l4 m-header__content--text">
-                <p>Willkommen bei UniSun Invest</p>
+                <p>Willkommen bei UniSun Invest </p>
                 <h2>Immobilien für
                     <span>
                         Institutionelle Investoren

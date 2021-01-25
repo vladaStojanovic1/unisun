@@ -1,4 +1,4 @@
-<?php $page_slug = 'home-de';
+<?php $page_slug = 'zuhause';
 require_once(dirname(__FILE__) . '/_includes/_head/head_meta.php'); ?>
 
 <body class="page-<?php echo $page_slug; ?>">
