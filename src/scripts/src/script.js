@@ -12,4 +12,15 @@ $(document).ready(function(){
     $( window ).resize(function() {
         $("body").removeClass("responsive");
     });
+
+    $(window).scroll(function(){
+        var sticky = $('.m-header__navigation');
+        var scroll = $(window).scrollTop();
+      
+        if (scroll >= 20){
+            sticky.addClass('-fixed');
+        } else {
+            sticky.removeClass('-fixed');
+        } 
+      });
 })

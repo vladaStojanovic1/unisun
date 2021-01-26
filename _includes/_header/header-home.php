@@ -5,7 +5,7 @@
                 <img src="src/images/logo-black.png" alt="">
             </div>
             <nav>
-                <a href="#team">Team</a>
+                <a href="#team">About Us</a>
                 <a href="#investment">Investment Criteria</a>
                 <a href="#contact">Contact Us</a>
             </nav>
@@ -13,8 +13,8 @@
 
         <div class="m-header__navigation--right">
             <div class="lang">
-                <a class="eng -arrowDown" href="">Eng</a>
-                <a class="de" href="de.php">De</a>
+                <a class="eng -arrowDown" href="">ENG</a>
+                <a class="de" href="de.php">DE</a>
             </div>
 
             <div class="hamburger">
@@ -35,8 +35,9 @@
                     </span>
                 </h2>
                 <p>
-                    We work together with investors to purchase and sell investment property that includes commercial,
-                    office and residential properties, as well as building land.
+                    Through our long-standing and extensive network, we strive to meet the requirements of our
+                    institutional investors and investors in Switzerland on a daily basis. This includes commercial,
+                    office, residential real estate and building land.
                 </p>
             </div>
 

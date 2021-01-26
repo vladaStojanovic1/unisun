@@ -1,7 +1,7 @@
 <section class="m-experience">
     <div class="_wr">
         <div class="_w m-experience__firstRow">
-            <div class="_xxl7 _xl7 _l7 m-experience__firstRow--text">
+            <div class="_xxl7 _xl7 _l9 m-experience__firstRow--text -de">
                 <h4>
                     Wir arbeiten mit den führenden institutionellen Investoren, namhaften Immobilieneigentümern und
                     Generalunternehmern an attraktiven Immobilienanlagen.
@@ -15,15 +15,15 @@
                 <p>Erfolgreiche Transaktionen</p>
             </div>
             <div class="_xxl4 _xl4 _l4 _m6 _s6 m-experience__secondRow--item">
-                <h1>CHF 600 m +</h1>
+                <h1>CHF 3 b+</h1>
                 <p>Transaktionsvolumen</p>
             </div>
             <div class="_xxl3 _xl3 _l3 _m6 _s6 m-experience__secondRow--item">
-                <h1>90 %</h1>
+                <h1>600 m+</h1>
                 <p>Immobilien innerhalb von 60 Tagen oder weniger verkauft</p>
             </div>
             <div class="_xxl3 _xl3 _l3 _m6 _s6 m-experience__secondRow--item">
-                <h1>30 +</h1>
+                <h1>63</h1>
                 <p>Aktive Investoren</p>
             </div>
         </div>
@@ -48,7 +48,7 @@
 
                             <div class="text">
                                 <p>
-                                    Mit über 30 aktiven institutionellen Investoren und 60 starken Partnern sorgen wir
+                                    Mit über 63 aktiven institutionellen Investoren und 40 starken Partnern sorgen wir
                                     für einen konstanten Dealflow und liquide Käufer.
                                 </p>
                             </div>

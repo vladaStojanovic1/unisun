@@ -3,7 +3,7 @@
         <div class="_w m-investment__firstPart">
             <div class="_xxl5 _xl5 m-investment__firstPart--left -blueOverlay"
                 style="background-image: url('src/images/Zurich.jpg');">
-                <h2>Investment-Kriterien</h2>
+                <!-- <h2>Investment-Kriterien</h2> -->
                 <h4>Wir suchen für unsere Kunden langfristige und nachhaltige Anlageobjekte.</h4>
             </div>
 

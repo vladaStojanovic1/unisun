@@ -13,8 +13,8 @@
 
         <div class="m-header__navigation--right">
             <div class="lang">
-                <a class="eng -arrowDown" href="#">De</a>
-                <a class="de" href="index.php">Eng</a>
+                <a class="eng -arrowDown" href="#">DE</a>
+                <a class="de" href="index.php">ENG</a>
             </div>
 
             <div class="hamburger">

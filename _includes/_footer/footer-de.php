@@ -15,13 +15,13 @@
                 <h4>Kontakt</h4>
                 <p>UniSun Invest AG</p>
                 <div class="flex">
-                    <span>Adresse</span><span class="slash">/</span>
-                    <p>Utoquai 49,<span class="block">8008 Zürich</span></p>
+                    <span>Straße</span><span class="slash">/</span>
+                    <p>Utoquai 49,<span class="block">CH-8008</span></p>
                 </div>
 
                 <div class="flex">
                     <span>E-mail</span><span class="slash">/</span>
-                    <a href="mailto:office@unisun.ch">office@unisun.ch</a>
+                    <a href="mailto:office@unisun-invest.ch">office@unisun-invest.ch</a>
                 </div>
             </div>
             <div class="_xxl6 _xl6 _l6 m-footer__content--right"

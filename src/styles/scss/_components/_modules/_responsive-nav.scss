@@ -29,4 +29,14 @@
             z-index: -1;
         }
     }
+
+    .m-header__navigation--right .hamburger .one,
+    .m-header__navigation--right .hamburger .three,
+    .m-header__navigation--right .hamburger .two {
+        background-color: $white;
+    }
+
+    .m-header__navigation--right .hamburger {
+        border-color: $white;
+    }
 }

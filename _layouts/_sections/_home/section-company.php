@@ -2,9 +2,9 @@
     <div class="_wr">
         <div class="_w m-company__infoText">
             <div class="_xxl10 m-company__infoText--content">
-                <h2>The Company</h2>
+                <h2>Management Team</h2>
                 <h4>
-                    UniSun Invest has been on the market since 2015, connecting investors with the right properties.We
+                    UniSun Invest has been on the market since 2015, connecting investors with the right properties. We
                     are
                     founders,
                     strategists, economists and researchers.
@@ -33,7 +33,7 @@
                 </p>
 
                 <p>Reach out by email at</p>
-                <a href="mailto:maione@unisun.ch">maione@unisun.ch</a>
+                <a href="mailto:maione@unisun-invest.ch">maione@unisun-invest.ch</a>
             </div>
         </div>
 
@@ -59,7 +59,7 @@
                 </p>
 
                 <p>Reach out by email at</p>
-                <a href="mailto:paschka@unisun.ch">paschka@unisun.ch</a>
+                <a href="mailto:paschka@unisun-invest.ch">paschka@unisun-invest.ch</a>
             </div>
         </div>
     </div>

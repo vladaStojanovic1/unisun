@@ -55,6 +55,13 @@
                     line-height: 46px;
                 }
             }
+
+            &.-de {
+                @include media-up(xl) {
+                    flex: 0 0 70%;
+                    max-width: 70%;
+                }
+            }
         }
     }
 

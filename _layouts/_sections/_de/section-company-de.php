@@ -32,7 +32,7 @@
                 </p>
 
                 <p>Sie erreichen ihn per E-Mail unter </p>
-                <a href="mailto:maione@unisun.ch">maione@unisun.ch</a>
+                <a href="mailto:maione@unisun-invest.ch">maione@unisun-invest.ch</a>
             </div>
         </div>
 
@@ -59,7 +59,7 @@
                 </p>
 
                 <p>Sie erreichen ihn per E-Mail unter</p>
-                <a href="mailto:paschka@unisun.ch">paschka@unisun.ch</a>
+                <a href="mailto:paschka@unisun-invest.ch">paschka@unisun-invest.ch</a>
             </div>
         </div>
     </div>

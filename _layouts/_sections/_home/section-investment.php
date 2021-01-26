@@ -3,33 +3,40 @@
         <div class="_w m-investment__firstPart">
             <div class="_xxl5 _xl5 m-investment__firstPart--left -blueOverlay"
                 style="background-image: url('src/images/Zurich.jpg');">
-                <h2>Investment Criteria</h2>
+                <!-- <h2>Investment Criteria</h2> -->
                 <h4>We are looking for sustainable long term investments for our clients.</h4>
             </div>
 
             <div class="_xxl7 _xl7 m-investment__firstPart--right">
                 <h4>
-                    Our clients focus not only on economic aspects, they also take ecological and social criteria into
-                    account when making acquisitions.
+                    Our customers do not only invest based on economic aspects, they also consider ecological and social
+                    aspects when making their purchases.
                 </h4>
                 <p class="subtitle">
-                    Investments are therefore based on a long-term holding period with a focus to optimize the life
-                    cycle:
+                    Investments are therefore based on the following criteria:
                 </p>
 
                 <div class="flex">
                     <div class="-checkmark"></div>
                     <p>
-                        We consider not only the one-off investments costs, but also the operating and maintenance costs
-                        incurred over the entire holding period.
+                        Consideration of environmental criteria including Minergie standard, public transport connection
+                        and maximum land utilization.
                     </p>
                 </div>
 
                 <div class="flex">
                     <div class="-checkmark"></div>
                     <p>
-                        The locations have to be attractive in the long term. One feature of such locations is that they
-                        are easily accessible by public transport.
+                        Economic criteria, taking into account rents in line with the market, low vacancy rates and
+                        economical floor plans.
+                    </p>
+                </div>
+
+                <div class="flex">
+                    <div class="-checkmark"></div>
+                    <p>
+                        Social criteria with a focus on location requirements with regard to work / education and
+                        culture.
                     </p>
                 </div>
             </div>
@@ -52,17 +59,16 @@
                 <div class="item-wrap">
                     <p>Target regions</p>
                     <p>
-                        German and French-speaking regions of Switzerland preferably in very good macro locations in the
-                        cantons Zurich, Basel, Bern, Lucerne and St. Gallen. In Western Switzerland we concentrate
-                        mainly on
-                        the Lausanne and Geneva regions.
+                        German-, French-speaking Switzerland and Ticino, preferably in very good macro locations in the
+                        cantons of Zurich, Zug, Aargau, Basel, Bern, Lucerne, St. Gallen and Schwyz. In French-speaking
+                        Switzerland, we concentrate mainly on the regions of Lausanne and Geneva.
                     </p>
                 </div>
             </div>
             <div class="_xxl3 _xl3 _l3 _m6 m-investment__secondPart--item">
                 <div class="item-wrap">
                     <p>Investment Volume</p>
-                    <p>From CHF 5-75 millions</p>
+                    <p>From CHF 7.5 - 100 millions with normal market cash-flow returns.</p>
                 </div>
             </div>
 
@@ -72,14 +78,15 @@
                     <p>
                         Central locations in terms of accessibillity (public transport), good infrastructure for the
                         type of use, interesting business enviroment, and positive outlook for demographic development.
+                        For more decentralized locations, cities with at least 2500 inhabitants.
                     </p>
                 </div>
             </div>
             <div class="_xxl3 _xl3 _l3 _m6 m-investment__secondPart--item">
                 <div class="item-wrap">
-                    <p>Anticipated return</p>
+                    <p>Forms of ownership</p>
                     <p>
-                        Normal market cash flow returns.
+                        Sole ownership, joint ownership and share deals.
                     </p>
                 </div>
             </div>

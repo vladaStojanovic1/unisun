@@ -24,12 +24,12 @@
             padding: 100px 20px;
 
             @include media-up(xl) {
-                padding: 130px 115px 130px 50px;
+                padding: 190px 115px 190px 50px;
                 text-align: initial;
             }
 
             @include media-up(xxl) {
-                padding: 130px 115px;
+                padding: 190px 115px;
             }
 
             @include media-up(xl) {

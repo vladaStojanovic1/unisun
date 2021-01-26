@@ -164,6 +164,7 @@
                     right: 0px;
                     padding: 3px 15px 3px 15px;
                     transition: ease-in-out 0.3;
+                    line-height: 1.5;
                 }
 
                 .eng {
@@ -225,7 +226,7 @@
             }
 
             @include media-up(xl) {
-                padding: 233px 50px 233px 0;
+                padding: 233px 18px 233px 0;
             }
 
             h2 {
